@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 500px 270px;
+}
+
+.background-1 {
+  grid-column: 1 / -1;
+  grid-row: 1/2;
+  background-image: url(img/background-1-cropped.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background-2 {
+  background-image: url(img/background-2.jpg);
+  background-position: center;
+  
+}
+
+.background-3 {
+  background-image: url(img/background-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.background-4 {
+  background-image: url(img/background-4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img-container {
+  padding: 18px;
+}
+
+.img-container img {
+  height: 9rem;
+  margin-bottom: 5px;
+}
+
+.buttons button {
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.motto-container p {
+  font-size: 20px;
+  color: #f0f0f0;
+  margin-bottom: 30px;
+}
+
+.transaction-container button {
+  width: 100%;
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: none;
+}
+
+.about-container button {
+  width: 80%;
+  border-radius: 50px;
+  border: none;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+.transaction-container a:hover, .about-container a:hover {
+  color: pink;
+}
+
+.buttons {
+  margin-top: 80px;
+}
+
+.transaction-container a, .about-container a {
+  padding: 15px 30px;
+  border-radius: 50px;
+  background-color: #fff;
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.transaction-container {
+  margin-bottom: 43px;
+}
+
+/* About Us */
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-logo-container {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.about-logo-container img {
+  width: 60%;
+}
+
+/* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+body {
+  height: 100vh;
+} */
+
+.about-title-container {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-left: 20px;
+  
+}
+
+.about-title-container h1 {
+  font-family: "Playfair", serif;
+  font-style: italic;
+
+}
+
+.aboutUs-container {
+  background: linear-gradient(rgba(111, 35, 35, 0.5), rgba(70, 32, 32, 0.5)),url(img/about_img.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  
+}
+
+.about-details-container {
+  color: rgb(224, 221, 221);
+  text-align: left;
+  max-width: 70%;
+  margin-left: 20px;
+
+}
+
+.about-details-container p {
+  margin-bottom: 30px;
+}
+
+.about-details-container a {
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: #fff;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.about-details-container a:hover {
+  color: pink;
+}
